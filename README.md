@@ -1,6 +1,6 @@
 # 寒武纪的鳄鱼 · 研究 Skill
 
-基于陈泽鑫的公开投资框架整理，覆盖商品周期、公司财报、估值、换仓复盘、读书与人生经验。
+基于寒武纪的鳄鱼的公开投资框架整理，覆盖商品周期、公司财报、估值、换仓复盘、读书与人生经验。
 
 - [下载 ZIP](https://github.com/gutianniao/hanwu-crocodile-skill/releases/latest)
 - [安装与使用](hanwu-crocodile/INSTALL.md)
