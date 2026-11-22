@@ -7,7 +7,7 @@
 Windows 用户在 PowerShell 中运行下面这条命令。
 
 ```powershell
-& ([scriptblock]::Create((irm 'https://raw.githubusercontent.com/gutianniao/hanwu-crocodile-skill/main/install.ps1')))
+& ([scriptblock]::Create((irm 'https://api.github.com/repos/gutianniao/hanwu-crocodile-skill/contents/install.ps1' -Headers @{Accept='application/vnd.github.raw+json'})))
 ```
 
 脚本校验 `v1.0.0` 安装包后，将 Skill 安装到 `~/.agents/skills/`。如果已安装同名 Skill，脚本会直接退出。安装完成后，新开 Codex 对话，输入 `$hanwu-crocodile` 调用。[查看安装脚本](install.ps1)
